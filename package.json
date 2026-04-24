@@ -1,0 +1,10 @@
+{
+    "name":  "terra-conecta-v2",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "pnpm --filter web run dev",
+                    "build":  "pnpm --filter web run build",
+                    "format":  "pnpm --filter web run format",
+                    "check:encoding":  "node scripts/check-encoding.mjs"
+                }
+}

@@ -1,4 +1,3 @@
-[
 # 🌿 Terra Conecta
 ## Documento Executivo Expandido
 
@@ -326,3 +325,4 @@ O **Terra Conecta** representa uma tecnologia social moderna, simples de usar e 
 
 Ele conecta produção, organização e mercado em uma experiência única, com suporte inteligente e potencial concreto de transformação econômica para agricultoras familiares.
 ](https://github.com/Henri-Di/Terra-Conecta---Doc/tree/main)
+](https://github.com/Henri-Di/Terra-Conecta---Doc/tree/main)](https://github.com/Henri-Di/Terra-Conecta---Doc/tree/main)

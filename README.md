@@ -1,180 +1,258 @@
 
-![Terra Conecta Logo](https://dummyimage.com/140x140/f3e6dc/5f7d26&text=TC)
+# 🌿 Terra Conecta
+## Documento Executivo Estratégico
 
-# TERRA CONECTA
-### Documento Corporativo da Plataforma Digital
+> Plataforma digital para assistência técnica contínua, gestão produtiva e conexão comercial de agricultoras familiares.
 
-> Plataforma de apoio técnico, gestão produtiva e comercialização para agricultoras familiares beneficiárias de Quintais Produtivos.
-
----
-
-# 1. Visão Executiva
-
-O **Terra Conecta** é uma solução digital criada para ampliar o acompanhamento técnico e operacional das produtoras rurais, transformando orientação especializada em uma experiência simples, visual e acessível.
-
-A proposta integra assistência contínua, organização produtiva e apoio à comercialização em uma única jornada digital.
+![Status](https://img.shields.io/badge/status-visão%20estratégica-6C8E2A?style=for-the-badge)
+![Produto](https://img.shields.io/badge/produto-terra%20conecta-4F8FD4?style=for-the-badge)
+![Impacto](https://img.shields.io/badge/foco-renda%20e%20autonomia-C88919?style=for-the-badge)
 
 ---
 
-# 2. Problema que o Sistema Resolve
+# 1. Propósito
 
-Muitas produtoras enfrentam desafios como:
+O **Terra Conecta** nasce para resolver um problema recorrente: a distância entre a orientação técnica necessária no campo e a rotina real de quem produz.
 
-- dificuldade de acesso à assistência técnica constante  
-- perdas por falta de planejamento  
-- dificuldade para vender com regularidade  
-- baixa organização de produção  
-- barreiras digitais e baixa familiaridade tecnológica  
-- ausência de acompanhamento simples de resultados
-
-O Terra Conecta responde a esses pontos com tecnologia prática e direta.
+Em muitos cenários, a produtora precisa decidir sozinha sobre plantio, manejo, colheita, organização da produção, venda e entrega. O sistema reduz essa lacuna com uma experiência simples, visual e contínua.
 
 ---
 
-# 3. Porteira para Dentro
+# 2. Como a Plataforma Funciona
 
-Tudo que acontece dentro da produção.
+O produto organiza a jornada em quatro eixos integrados:
 
-## Funcionalidades
-
-- Planejar plantio  
-- Calendário produtivo  
-- Manejo  
-- Irrigação  
-- Colheita  
-- Organização do quintal  
-- Checklist operacional  
-- Alertas visuais  
-- Registro de atividades
-
-## Resultado Esperado
-
-Mais eficiência, menos perdas e melhor previsibilidade.
+| Eixo | Papel |
+|---|---|
+| 🌱 Produção | Apoia o trabalho dentro do quintal |
+| 📋 Gestão | Organiza rotina, registros e perdas |
+| 🛒 Mercado | Leva a produção para venda |
+| 🤖 Oriá | Assistente inteligente transversal |
 
 ---
 
-# 4. Porteira para Fora
+# 3. Fluxo Geral da Usuária
 
-Tudo que conecta produção ao mercado.
+```mermaid
+%%{init: {'theme':'base','themeVariables':{
+'primaryColor':'#0f172a',
+'primaryTextColor':'#e5e7eb',
+'primaryBorderColor':'#22d3ee',
+'lineColor':'#a3e635',
+'secondaryColor':'#111827',
+'tertiaryColor':'#1e293b',
+'background':'#020617',
+'nodeBorder':'#f59e0b'
+}}}%%
+flowchart LR
+A[🏠 Home] --> B[🌱 Produção]
+A --> C[📋 Gestão]
+A --> D[🛒 Mercado]
+A --> E[🌿 Plantas]
+A --> F[📊 Dashboard]
+A --> G[🤖 Oriá]
 
-## Funcionalidades
+G --> B
+G --> C
+G --> D
+G --> E
+```
 
-- Venda em feira  
-- Venda institucional  
-- Separação de pedidos  
-- Entregas  
-- Renda estimada  
-- Organização logística  
-- Histórico comercial
-
-## Resultado Esperado
-
-Mais vendas, renda recorrente e melhor escoamento da produção.
+### Leitura do fluxo
+- A **Home** é a porta de entrada.
+- Cada módulo resolve uma etapa prática.
+- A **Oriá** pode ser acionada em qualquer momento.
+- O sistema privilegia decisões rápidas e execução simples.
 
 ---
 
-# 5. Oriá — Assistente Rural
+# 4. Porteira para Dentro — Produção
 
-A **Oriá** é a inteligência central da plataforma.
+Tudo que acontece no cultivo e na preparação da produção.
 
-## Canais
+## O que a usuária encontra
+- Planejamento de plantio
+- Calendário produtivo
+- Manejo
+- Irrigação
+- Colheita
+- Checklist diário
+- Alertas preventivos
+- Acompanhamento visual
 
-- Voz  
-- Texto  
-- Foto  
-- Resposta guiada
+## Exemplo real de uso
+1. A produtora abre Produção  
+2. Marca tarefas concluídas  
+3. Vê pendências do dia  
+4. Recebe orientação da Oriá  
+5. Segue para colheita organizada
 
-## Exemplos de Uso
+## Resultado
+- Menos improviso  
+- Mais produtividade  
+- Redução de perdas no processo
 
-- “Minha planta está amarela”
-- “Quando devo colher?”
-- “Quanto posso vender hoje?”
-- “Como organizar entrega?”
+---
+
+# 5. Gestão Simplificada
+
+Transforma rotina em controle simples.
+
+## Funções
+- Registrar o que foi plantado
+- Registrar colheita
+- Acompanhar andamento
+- Identificar gargalos
+- Evitar perdas
+- Salvar observações
+
+## Lógica da tela
+- Indicadores visuais
+- Checklist tocável
+- Percentual de avanço
+- Bloco de anotações
 
 ## Benefício
-
-Reduz barreiras de uso e aproxima suporte técnico da rotina real.
-
----
-
-# 6. Módulos do Sistema
-
-| Módulo | Finalidade |
-|---|---|
-| Home | Entrada principal com atalhos |
-| Dashboard | Visão geral da operação |
-| Produção | Fluxo produtivo |
-| Gestão | Controle simples |
-| Venda | Mercado e renda |
-| Plantas | Diagnóstico orientativo |
-| Oriá | Assistente digital |
+A usuária deixa de depender da memória e passa a operar com clareza.
 
 ---
 
-# 7. Experiência de Uso
+# 6. Porteira para Fora — Mercado
 
-A interface foi pensada para simplicidade:
+Conecta produção e renda.
 
-- botões grandes  
-- ícones claros  
-- poucas palavras  
-- cores funcionais  
-- navegação direta  
-- leitura fácil  
-- uso em celular
+## Funções
+- Preparar feira
+- Venda institucional
+- Separar pedidos
+- Organizar entregas
+- Ver estimativa de renda
+- Acompanhar status comercial
+
+## Jornada comercial
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{
+'primaryColor':'#111827',
+'primaryTextColor':'#f8fafc',
+'primaryBorderColor':'#f59e0b',
+'lineColor':'#22d3ee',
+'secondaryColor':'#0f172a',
+'tertiaryColor':'#1e293b',
+'background':'#020617'
+}}}%%
+flowchart LR
+A[🥬 Produção pronta] --> B[📦 Separar]
+B --> C[🚚 Entregar]
+C --> D[🛒 Venda]
+D --> E[💰 Renda]
+```
+
+## Resultado
+- Melhor escoamento
+- Mais previsibilidade financeira
+- Expansão de canais de venda
 
 ---
 
-# 8. Arquitetura Funcional
+# 7. Oriá — Assistente Rural
 
-## Frontend
+A **Oriá** é a camada de inteligência e suporte humano-digital do sistema.
 
+## Entradas
+- 🎤 Voz
+- 💬 Texto
+- 📷 Foto
+
+## Saídas
+- Orientação objetiva
+- Resposta falada
+- Próxima ação recomendada
+- Direcionamento para módulo correto
+
+## Exemplos
+- “Minha planta está secando”
+- “O que entregar hoje?”
+- “Quanto posso vender?”
+- “O que falta fazer agora?”
+
+## Papel Estratégico
+A Oriá reduz barreiras tecnológicas e simplifica o uso da plataforma inteira.
+
+---
+
+# 8. Dashboard Operacional
+
+Tela de visão rápida.
+
+## Mostra
+- Alertas
+- Pendências
+- Atividades recentes
+- Percentuais
+- Indicadores do dia
+
+## Objetivo
+Permitir que a usuária entenda a situação atual em segundos.
+
+---
+
+# 9. UX e Inclusão Digital
+
+O produto foi desenhado para uso real em campo.
+
+## Princípios
+- Botões grandes
+- Ícones intuitivos
+- Pouco texto
+- Cores por função
+- Navegação direta
+- Mobile first
+- Feedback visual imediato
+
+## Impacto
+Mesmo pessoas com baixa familiaridade digital conseguem operar com autonomia.
+
+---
+
+# 10. Arquitetura Técnica
+
+## Base Atual
 - React
 - TypeScript
-- UI modular
+- Estrutura modular
+- Componentes reutilizáveis
+- Evolução incremental
 
-## Estrutura
+## Estratégia
+Sem superengenharia inicial. O sistema cresce por etapas validadas.
 
-- módulos independentes
-- evolução incremental
-- manutenção simples
-- escalabilidade futura
+## Evolução futura
+- Backend real
+- Login
+- Multiusuário
+- Analytics
+- Integrações públicas
+- IA avançada
 
 ---
 
-# 9. Impacto Esperado
+# 11. Impacto Esperado
 
 ## Econômico
-
-- aumento de renda  
-- previsibilidade comercial  
-- redução de perdas
+- Mais renda
+- Menos perdas
+- Melhor organização comercial
 
 ## Social
-
-- autonomia produtiva  
-- inclusão digital  
-- fortalecimento da agricultura familiar
-
----
-
-# 10. Roadmap Evolutivo
-
-Futuras expansões possíveis:
-
-- backend real
-- autenticação
-- multiusuário
-- analytics
-- integrações públicas
-- IA avançada
-- relatórios gerenciais
+- Inclusão digital
+- Autonomia produtiva
+- Fortalecimento local
+- Tecnologia replicável
 
 ---
 
-# 11. Conclusão
+# 12. Conclusão
 
-O Terra Conecta não é apenas um sistema.  
-É uma ponte entre tecnologia, produção rural e geração de renda.
-
-Uma plataforma acessível, replicável e orientada a impacto real.
+O **Terra Conecta** é mais que software.  
+É uma estrutura prática para transformar rotina produtiva em resultado econômico, com simplicidade, suporte contínuo e potencial real de escala.

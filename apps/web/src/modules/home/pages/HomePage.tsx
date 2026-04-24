@@ -81,9 +81,8 @@ export function HomePage() {
   }, []);
 
   const handleShowPlant = useCallback(() => {
-    setOriaTab('imagem');
-    setOriaModalOpen(true);
-  }, []);
+    navigate('/plants');
+  }, [navigate]);
 
   const mainActions: MainAction[] = [
     {
@@ -99,9 +98,9 @@ export function HomePage() {
     },
     {
       icon: Camera,
-      title: 'Mostrar planta',
+      title: 'Ir para planta',
       subtitle: 'Mostre a folha, o fruto ou a parte que precisa de atenção.',
-      helper: 'Tirar ou enviar foto',
+      helper: 'Abrir análise',
       iconBg: 'linear-gradient(135deg, #6C8E2A 0%, #8EB843 100%)',
       iconColor: '#FFFFFF',
       borderColor: 'rgba(108, 142, 42, 0.24)',
@@ -167,7 +166,7 @@ export function HomePage() {
     { icon: Home, label: 'Início', path: '/' },
     { icon: Image, label: 'Painel', path: '/dashboard' },
     { icon: Mic, label: 'Falar' },
-    { icon: Camera, label: 'Foto' },
+    { icon: Camera, label: 'Planta', path: '/plants' },
     { icon: HandHelping, label: 'Ajuda' },
   ];
 
